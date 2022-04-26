@@ -51,9 +51,6 @@ function playRound(playerSelection, computerSelection) {
     }
   }
   
-// var countPlayer = 0;
-// var countComputer = 0;
-
 /** FIVE Rounds game function  */
 function game() {
     for (let i = 0; i < 5; i++) {
@@ -74,16 +71,3 @@ else {
 }
 
 console.log(game());
-
-// /** Function that declare Winner */
-// function winner() {
-//     if(countPlayer > countComputer) {
-//         return "CONGRATS TO PLAYER";
-//     }
-//     else {
-//         return "SORRY TO PLAYER";
-//     }
-// }
-
-// game();
-// console.log(winner());
