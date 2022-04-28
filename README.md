@@ -1,9 +1,9 @@
 # ROCK-PAPER-SCISSORS
-Successfully structured "ROCK PAPER SCISSORS" in CONSOLE.
+Fixed Showing Wrong Winner Result! Especially calling result() function.
+Using a function call instead of writing the whole function again especially result() and winnerOfTheMatch() functions.
 
-Build UI for the project and applied some JavaScript functions to it.
-I'm gonna polish this project very soon.
-Now Kindly check my project and suggest me anything!
+Kindly check my project and suggest me anything.
 I look forward hearing from you all.
 
+I'm gonna polish this project very soon.
 THANKS FOR YOUR REVIEW.
