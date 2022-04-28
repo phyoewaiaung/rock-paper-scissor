@@ -11,7 +11,7 @@ h1 {
 .container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 40px;
+   
 }
 h3 {
    font-size: x-large;
@@ -34,6 +34,7 @@ button {
     color: yellow;
     font-weight: bold;
     font-size: 2em;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 .playerChoice {
@@ -52,16 +53,27 @@ button {
     font-weight: bold;
     font-size: 2.4em;
     margin-top: 30px;
+    animation:blink 5s linear infinite;
 }
-.playerScores {
+@keyframes blink{
+    50% {
+        opacity: 0;
+    }
+    80% {
+        opacity: .5;
+    }
+}
+.message1 {
     text-align: center;
     font-style: italic;
     font-size: 1em;
-    color: green;
+    color: rgb(126, 210, 216);
+    font-weight: bold;
 }
-.computerScores {
+.message2 {
     text-align: center;
     font-style: italic;
     font-size: 1em;
-    color: green;
+    color: rgb(126, 210, 216);
+    font-weight: bold;
 }
