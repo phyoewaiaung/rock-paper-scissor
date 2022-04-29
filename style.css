@@ -77,3 +77,13 @@ button {
     color: rgb(126, 210, 216);
     font-weight: bold;
 }
+.playAgain {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-top: 15px;
+}
+a {
+    text-decoration: none;
+}

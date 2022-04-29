@@ -64,8 +64,9 @@ function computerPlay() {
       else{
           document.querySelector(".playerChoice").textContent = "";
           document.querySelector(".compChoice").textContent = "";
-          rock();
           --rounds;
+          rock();
+          
       }
       ++rounds;
       showScores();
@@ -85,8 +86,9 @@ function computerPlay() {
       else{
           document.querySelector(".playerChoice").textContent = "";
           document.querySelector(".compChoice").textContent = "";
-          paper();
           --rounds;
+          paper();
+          
       }
       ++rounds;
       showScores();
@@ -106,8 +108,9 @@ function computerPlay() {
       else{
           document.querySelector(".playerChoice").textContent = "";
           document.querySelector(".compChoice").textContent = "";
-          scissors();
           --rounds;
+          scissors();
+          
       }
       ++rounds;
       showScores();
@@ -130,6 +133,7 @@ function computerPlay() {
 /*** Declaring winner in 5 rounds game */
 function winnerOfTheMatch() {
     if(rounds == 5) {
+        playAgainFun();
         if(playerScore == computerScore) {
             document.querySelector(".winner").textContent = "THIS MATCH IS A TIE in 5 Rounds!";
         }else if(playerScore > computerScore) {
@@ -148,15 +152,9 @@ function showScores() {
     document.querySelector(".message2").innerHTML = " Computer Scores : " +computerScore;
 }
 function playAgainFun () {
-    if(rounds == 5){
         var a = document.createElement("a");
         var linkText = document.createTextNode("Play Again");
         a.appendChild(linkText);
-        a.title = "some text";
         a.href = "index.html";
         document.querySelector(".playAgain").appendChild(a);
-    }
-    else {
-        return;
-    }
 }
