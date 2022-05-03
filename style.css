@@ -1,89 +1,91 @@
-*{
-    background-color: rgb(23, 23, 91);
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    color: wheat;
+* {
+  background-color: rgb(23, 23, 91);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: wheat;
 }
 h1 {
-    text-align: center;
-    font-size: 3em;
+  text-align: center;
+  font-size: 3em;
 }
 .container {
-    display: flex;
-    justify-content: space-around;
-   
+  display: flex;
+  justify-content: space-around;
 }
 h3 {
-   font-size: x-large;
+  font-size: x-large;
 }
 h2 {
-    text-align: center;
+  text-align: center;
 }
 button {
-    height: 40px;
-    width: 150px;
-    background-color: green;
-    font-size: 1em;
+  height: 40px;
+  width: 150px;
+  background-color: green;
+  font-size: 1em;
 }
 .winner {
-    text-align: center;
-    font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
 }
 .singleResult {
-    text-align: center;
-    color: yellow;
-    font-weight: bold;
-    font-size: 2em;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .playerChoice {
-    font-size: 1.3em;
-    color: yellow;
-    font-weight: bold;
+  font-size: 1.3em;
+  color: yellow;
+  font-weight: bold;
 }
 .compChoice {
-    font-size: 1.3em;
-    color: yellow;
-    font-weight: bold;
+  font-size: 1.3em;
+  color: yellow;
+  font-weight: bold;
 }
 .winner {
-    text-align: center;
-    color: rgb(230, 72, 117);
-    font-weight: bold;
-    font-size: 2.4em;
-    margin-top: 30px;
-    animation:blink 5s linear infinite;
+  text-align: center;
+  color: rgb(230, 72, 117);
+  font-weight: bold;
+  font-size: 2.4em;
+  margin-top: 30px;
+  animation: blink 5s linear infinite;
 }
-@keyframes blink{
-    50% {
-        opacity: 0;
-    }
-    80% {
-        opacity: .5;
-    }
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
 }
 .message1 {
-    text-align: center;
-    font-style: italic;
-    font-size: 1em;
-    color: rgb(126, 210, 216);
-    font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-size: 1em;
+  color: rgb(126, 210, 216);
+  font-weight: bold;
 }
 .message2 {
-    text-align: center;
-    font-style: italic;
-    font-size: 1em;
-    color: rgb(126, 210, 216);
-    font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-size: 1em;
+  color: rgb(126, 210, 216);
+  font-weight: bold;
 }
 .playAgain {
-    font-size: 1.2em;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    margin-top: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-top: 15px;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+button:hover {
+  box-shadow: 2px 2px 5px 5px #999;
 }
